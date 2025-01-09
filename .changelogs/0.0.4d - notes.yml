@@ -1,0 +1,36 @@
+Version: 0.0.4d
+
+Added Features:
+
+    - Player System
+      * Currently completed the LSPD MDC player search functionality of the MDC system
+
+    - Duty Point Added
+      * Added a duty point position variable for the LSPD
+
+    - Script Addition
+      * Added in a new bool IsEqual to detect is strings match 100%
+  
+Removed Features:
+
+    - No removed features at this time
+
+Fixed Bugs / Updated Features:
+
+    - Updated /stats command to display full text dialog_response string
+
+    - Fixed /duty command to now complete the following
+      * Remove Player Weapons upon off duty succession
+      * Applys appropriate skins to the sex of the character
+
+    - Fixed /cuff command to now complete the following
+      * Command now checks if cuff victim is their own id
+      * Cuff will not action when command has no id in the text
+      * Cuff command will not action when player isn't near another player
+      * Cuff commnad applys animation_cuff upon succession
+
+    - Fixed /taser commnad to now complete the following
+      * Command now checks if taser victim is their own id
+      * Taser will not action when command has no id in the text
+      * Taser command will no action when player isn't near the victim id
+      * Once taser timer has ended the player will stand up

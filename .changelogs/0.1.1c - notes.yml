@@ -1,0 +1,33 @@
+Version: 0.1.1c
+
+Added Features:
+
+  - Added in /heal command for the LSMC faction to heal players when they get calls
+  - Added in /placeincar (/pic) command for the LSMC faction to place players into the vehicle
+  - Added in /drag command for the LSMC faction to move players around
+
+  - Added in a new command for players /report, this allows player to report other players to the admin team
+  - Added in a new command for admins /reports, this display all current reports from the DB that haven't been closed
+  - Added in a new command for admins /closereport, this allows the admin to close a report once it has been looked into
+
+  - Added in new DIALOG_STYLE_SHOPS from 1 to 20 counts, for the new business types in the previous version
+
+  - Added in new Dealership System for private vehicle purchasing
+  - Added in /changeownership command so players can sell their vehicles to another player
+  - Added in /recyclecar command so players can get rid of vehicles they do not want 
+
+  - Added in /clearchat so that players can have a clean message box 
+
+Removed Features:
+
+  - Removed the alpha dealership system and replaced with business system style allocations
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /reports command not displaying the return cache values
+  - Fixed a bug with the string length of the /report command, where words were being off, now extended to 250 characters for the reason
+  - Fixed a bug where the randindex finder for the vehicle positions when a dealership created a car was not allocating the right position
+  - Fixed a bug where the user was returning and insert two vehicle records for every one vehicle that was being created
+
+  - Updated the design on the /reports command to display each report in a two line message, so that we get more reason about the report, instead of small information on one line
+  - Updated the vehicle dealership system to be included in the business system instead of something of its own

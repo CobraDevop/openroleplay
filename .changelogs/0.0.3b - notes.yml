@@ -1,0 +1,46 @@
+Version: 0.0.3b
+
+Added Features:
+
+  - Added in a new character_total_houses count against player variables
+    * This is used to detect how many houses the player owns on the server and checks if they exceed the max
+      property ownership value
+
+  - Added in /stats command for players
+    * This command will allow players to see the general statistics of their character stats
+
+  - Added in a new dynamic vehicle system into the script
+    * This will allow players the chance to own their own private vehicles and the server to have general use ones too
+
+  - Added in commands /vinfo, /vcreate, /vdelete, /vsetfaction, /vsetowner for level 5 admins
+    * This will allow the admins to view the information of that vehicle id they have searched for and the ability to change any
+      vehicle at any time  
+
+  - Added in new admin jail functionality within the script
+    * Just need to create the /ajail and /rajail commands for the admins, but overall respawning, jail system works for staff
+
+  - Added in command /kick for admin staff
+    * This feature lets the staff kick any player they want too, who disobeys server rules
+
+  - Added in /ajail and /rajail commands for admin staff
+    * This feature allows the staff to admin jail any player or remove that siad player from admin jail
+
+Removed Features:
+
+  - Disabled the manual engine and lights feature temp to sort out vehicles
+
+Fixed Bugs / Updated Features:
+
+  - Players were still not being spawned at the right locations upon relogging in
+    * Swapped house check for first spawn, then if no house, then location spawn
+
+  - Updated house information box to display property ID for admin staff
+    * This enables staff to actively find the id of the property they need to change / remove
+
+  - Updated current built houses to have spawn locations
+    * This has changed with the last build update with spawn_loc under house_ownership
+
+
+  
+
+

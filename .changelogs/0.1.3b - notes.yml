@@ -1,0 +1,29 @@
+Version: 0.1.3b
+
+Added Features:
+
+  - Added in a new criminal faction located in Vinewood
+  - Added in a new /spectate and /endspectate command for helpers - Requested
+  - Added in a new /nudge command for helpers to get people out of sticky situations - Requested
+  - Added in a new /slap command for helpers to get people out of sticky situations - Requested
+  - Added in a new /joinjob and /quitjob commands
+  - Added in a new pizza delivery job that will provide you will house delivery options
+  - Added in a new vehicle parameter in the DB "vehicle_job" to counter for job vehicles
+  - Added in a new command /vsetjob to set vehicle to specific jobs
+
+Removed Features:
+
+  - Removed all the non required commands from the /commands menu
+
+Fixed Bugs / Updated Features:
+
+  - Updated the command /kick to include moderator access
+  - Updated the design and accuracy of the helper commands
+  - Updated the design and accuracy of the moderator commands
+  - Updated the design and accuracy of the admin commands
+  - Updated the design and accuracy of the player commands
+  - Updated the /stats command to include the job name
+  - Updated the /vinfo command to include the new vehicle job parameters
+
+  - Fixed a bug with moderators not being able to see their commands
+  - Fixed a bug with helpers not being able to see their commands

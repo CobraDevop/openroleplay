@@ -1,0 +1,30 @@
+Version: 0.1.9c
+
+Blocked Features:
+
+  - House inventory system bug has returned [in progress fix]
+  - Vehicle inventory system bug has returned [in progress fix]
+
+Added Features:
+  
+  - Added in a new /sit command with 5 different seating animation types
+  - Added in a new /lay command with 5 new laying amination types
+  - Added in a new /walk command with 12 new walk style animations
+  - Added in new commands /startfare and /stopfare for the Taxi Faction
+  - Added in a new sub routine that cancels the fare calculated when a user exits the vehicle
+  - Added in a new /findcar command that lets players locate their vehicles they own
+
+Removed Features:
+
+  - None in this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug that when you make a customer license plate, it will spawn your vehicle back with default 0 colors
+
+  - Updated the /sit command to be /lay as these actions related to a laying animation than a sitting
+  - Updated the GPS locations for factions and jobs
+  - Updated the database to upgrade from a deprecated service
+  
+
+

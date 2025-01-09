@@ -1,0 +1,34 @@
+Version: 0.1.3a
+
+Added Features:
+
+  - Added in a new random job for the Dudefix faction that spawns broken down pipes through the city that needs repairing
+  - Added in a new command /fixpipe for the dudefix faction
+  - Added in a new ability for specific admin levels to operate all vehicles without booting from vehicle based on restrictions
+  - Added in a new tornado system that spawns object depicting a tornado scenario
+  - Added in a new /helperchat command for all helpers online
+  - Added in a new /moderatorchat command for all moderators online
+  - Added in a new /sethelper and /setmoderator command for admin rank level 6
+  - Added in a new command /helpme which supports players that are stuck in situations or need advice
+  - Added in a new command /helpmetoggle which allows staff to stop seeing helpme requests
+
+Removed Features:
+
+  - Removed the old deprecated R39-2 MySQL version (Updating to new version)
+  - Removed the old deprecated a_samp legacy include (Updating to a new version)
+
+Fixed Bugs / Updated Features:
+
+  - Updated to R41-4 MySQL version
+  - Updated to Open.MP Include version
+  - Updated the /duty command to work with the Dudefix Faction
+  - Updated the Dudefix Faction with a temp office interior
+  - Updated the Dudefix random job timer to be 15 minute intervals
+  - Updated the /admins command to see the role titles instead of just levels - Requested update
+  - Updated the existing /staff command to include helpers and moderators
+  - Updated the vehicle command list to include the /fillvehicle command
+  - Updated the /reports command to include the person who reported the player
+
+  - Fixed a bug where the pipe burst objects werent moving out of the map
+  - Fixed a bug where the checkpoint wasn't clearning when the dudefix player was within the checkpoint
+  - Fixed a bug where the tdstring parameter was bugging out the notification textdraw - Reported Bug

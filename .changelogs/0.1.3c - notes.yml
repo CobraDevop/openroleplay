@@ -1,0 +1,28 @@
+Version: 0.1.3c
+
+Added Features:
+
+  - Added in a new command /pm that lets people communicate more effectively in an OOC manner
+  - Added in a new map design next to the pizza stack
+  - Added in a new random message system for TIPs for players - Requested
+  - Added in a new basic Garbage Collection job, where you are tasked with collecting property rubbish - [More interactiveness to come]
+
+Removed Features:
+
+  - None for this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed the /report command that allowed people to report themselves - Reported
+  - Fixed the faction commands dialog when someone isn't in a faction - Reported
+  - Fixed the paycheck system that was giving non vip members 2 coins instead of one - Reported
+  - Fixed the command /pm length bug for characters
+  - Fixed /showlicenses bug where is displayed to the player who used the command
+  
+  - Updated the player name tag colour to reflect if they are logging in or signed in already - Requested
+  - Updated the command /jailtime to be /time to also include the use for when waiting inside the hospital - Requested
+  - Updated the Player name tag draw distance to be a little bit further to read - Requested
+  - Updated the /closereport command to reflect a general message confirming close of report - Requested
+  - Updated the /gotocar command to increase the persons position above the vehicle instead of underneath it - Requested
+  - Updated the /helpme command to be consistant with the /report command in terms of coloring
+  - Updated the location of the /recyclecar to the recyclecenter

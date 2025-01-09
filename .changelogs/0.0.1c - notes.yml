@@ -1,0 +1,32 @@
+Version: 0.0.1c
+
+Added Features:
+  
+  - Added in some basic roleplay commands
+    * Now the players can now use command /me and /do to establish a baseline for their roleplay.
+
+  - Added in a local chat with OnPlayerText
+    * Now players can chat in a local window using a proximity detector that checks whos in the area and displays that local chat to them.
+
+  - Added in static doors into the script
+    * This gives the players some door entrances around the server for testing purposes.
+    * Players now just have to click on their ENTER button to go inside the doors displayed.
+  
+  - Added in static help icons into the script
+    * This will be used to support the new players around the server and give them guides.
+
+  - Added a dynamic time system to the server
+    * Now players within the communtiy can see what the current server time is in-game. This will be used in the future for checking last login time 
+      etc.
+  
+Removed Features:
+
+  - Removed public chat return 1 value
+    * Now there is no public chat that goes to all users in the server and is limited to the local chat addition above
+ 
+Fixed Bugs / Updated Features:
+
+  - Fixed the database connection issue
+    * Now the server can connect to the new database as we merged to a new upgrade version of mysql
+ 
+

@@ -1,0 +1,42 @@
+Version: 0.0.3c
+
+Added Features:
+
+  - Added in command /park for players
+    * This will allow users to park their private vehicles after they purchase them from the dealership
+
+  - Added in commands /engine, /lights, /bonnet and /boot for vehicles
+    * This allows the users the abilities to contorl their private vehicles a little bit more
+
+  - Added in command /jailtime for players
+    * This feature allows users to check how much jail time they have left in either RP prison or admin jail
+
+  - Added in a new login screen location
+    * This now defers players away from the fact that we roleplay in LS not the back county of LV as was the last interloop camera
+
+  - Added a new control feature with the /ajail command, admins cannot jail themselves
+    * This allows control within the commands so that they cannot be abused, other admins will need to punish other admins
+
+Removed Features:
+
+  - Removed the old interloop camera login location
+    * This was giving the impression that we RP in the county of LV
+  
+
+Fixed Bugs / Updated Features:
+
+  - Updated ManaualVehicleEngineLights native back on
+    * Now vehicles require the newly added functions in option two above to operate them
+
+  - Fixed bug when players spawn in server, it locks them in admin jail every minute
+    * Updated the call function to match if player time is more than one unit and if they are still in jail, only then respawn them
+
+  - Fixed bug when player enters interiors, they falls through the sky
+    * This has been fixed with a new door delay timer that freezes players upon entering for 2 secs before they can move
+
+
+
+
+  
+
+

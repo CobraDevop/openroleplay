@@ -1,0 +1,28 @@
+Version: 0.1.7d
+
+Added Features:
+
+  - Added in a /lock command against all personal vehicles that are purchased via the dealerships
+  - Added in a new lock and alarm system for the houses where you can buy locks and alarms from the store on your person instead of autmatically adding one
+  - Added in commands /installlock and /installalarm that lets the player go to their house and actually install the alarm on the door
+  - Added that the bank door closes automatically when the robbery cooldown timer has ended 
+  - Added in the house alarm and house lock inventory items to the players /pockets
+  - Added a restriction on /searchbin, /buildparts and /buildweapons to not allow people to use these commands while within a vehicle
+
+Removed Features:
+
+  - Removed the old house automatic apply lock / alarm system
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the dealership system that wasn't charging the right amounts
+  - Fixed a bug with the faction ID 15 vehicles that wasn't stopping people using them
+  - Fixed a bug with the /ajail message that gets sent to all users
+  - Fixed a bug with CJ skin detection upon logining into the server
+  - Fixed a bug with the /pockets command title line
+
+  - Updated the dealership system to have a more realistic approach to vehicle prices
+  - Updated the existing leveling system to house a new overall performance based experience structure
+  - Updated the statistics screen to include the new experience level required
+  - Updated the TIP notifications to be a more generic color scheme
+  - Updated the /commands to be a more generic color scheme

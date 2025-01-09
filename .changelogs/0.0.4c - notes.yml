@@ -1,0 +1,39 @@
+Version: 0.0.4c
+
+Added Features:
+
+    - Player System
+      * Added in a new weapon saving system that registers 6 weapon components that player can house on their persons
+
+      * Added in new command /duty which allows the LSPD faction to go on duty and gain weapons etc from this change
+
+      * Added in a new command called /taser which allows the LSPD to taser any victim within a 15 foot radius of them by using
+        their playerid tag
+      
+      * Added in new command /cuff for the LSPD, now players can be cuffed while being detained in a roleplay scene
+
+    - Admin System
+      * Added in ResetPlayerWeapons function to the /weaponban command, which now removes the existing weapons the player
+        has to prevent them from casuing more issues
+
+    - System Update
+      * Added in a new MDC enum structure that will be used with the LSPD for the list of crimes that have ever
+        been committed on the server. This system has sql saving and sql loading functions loaded in to go
+  
+Removed Features:
+
+    - No removed features at this time
+
+Fixed Bugs / Updated Features:
+
+    - SaveUserInformation Procedure
+      * Now the player weapons save and load upon the user existing the game and rejoining
+
+    - Player System
+      * Updated the /acceptdeath command so that players while in admin jail cannot leave by using the said command
+
+      * Removed police /duty weapons upon going off duty - Now resets players weapons to nothing and give them their own weapons
+        back
+
+      * Removed the text line /baton from the lspd commands dialog_box as this isn't needed anymore with the action of providing
+        the player with a baton upon going on duty

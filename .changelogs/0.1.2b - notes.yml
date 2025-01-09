@@ -1,0 +1,25 @@
+Version: 0.1.2b
+
+Added Features:
+
+  - Added in the ability to purchase weapons from ammunation if you have a license
+  - Added in the ability to steal weapons from ammunation off the counter if you don't have a license, this will advise the LSPD of a robbery in progress
+  - Added in the ability to purchase other extra items from ammunation like armour, granades etc
+  - Added in a cooldown period for the ammunation weapon robbery
+  - Added in the vehicle check for all other factions, if a player doesn't belong it removes them, unless they hotwire it
+  - Added in a new command /fstaff for faction users to see who is online in their faction
+  - Added in a new command /licenses to view all your licenses you have currently
+  - Added in a new command /showlicenses to show your licenses to another player
+
+Removed Features:
+
+  - None on this release
+
+Fixed Bugs / Updated Features:
+
+  - Updated the alert to the player when they stole an item from ammunation
+  - Updated the /rob functionality with the ammunation store, now you have to collect three points to earn anything
+
+  - Fixed a bug with the /shop feature for the dealerships, wasn't letting anyone else purchase vehicles due to the limitations security
+  - Fixed a bug where the /shop command never repositioned the camera back behind the player
+  - Fixed a bug with the player color nametage, now updated to reflect this

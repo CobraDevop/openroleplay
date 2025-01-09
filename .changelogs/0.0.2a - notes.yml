@@ -1,0 +1,40 @@
+Version: 0.0.2a
+
+Added Features:
+
+  - New player skin upon registration
+    * Now players won't have access to the CJ skin.
+
+  - New /gotopos command for level 1 admins
+    * Now staff can teleport to exact locations that they may want too
+
+  - New added in new /gotols command that teleports level 1 admins to the center of Los Santos.
+    * This saves time with having to locate the cords for this area
+
+  - New /a(dminchat) command
+    * This feature enables admins to discuss private chats without having players interfer with conversations in OOC context
+
+  - New printf function to register all in game executed commands in a log for admin access
+    * This feature will assist admins with their job to find our who said what or actioned what
+
+  - New /mute and /unmute command for admins
+    * This feature will let admins mute players from speaking or typing ingame (This is only a temp solution to overtalkers)
+
+Removed Features:
+
+  
+
+Fixed Bugs / Updated Features:
+
+  - Version info was being displayed under mode type
+    * This has been reverted back to now show "Roleplay"
+
+  - Mode type was being displayed in the version section
+    * This has been reverted back to now show "SERVER_VERSION"
+
+  - Dynamic Door interior updating bug
+    * This now has allowed users to enter doors and enter the correct interior ids
+
+
+
+

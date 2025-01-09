@@ -1,0 +1,21 @@
+Version: 0.1.4a - Hot Fix
+
+Added Features:
+
+  - Added in the drunk effect and weather type for anyone using drugs
+  - Added in a cooldown timer to stop people waiting for the drunk effect level to end
+  - Added in a /stopanim command to clear a players animation if they themself started it
+  - Added in a /animations command so players can view what animations the server has to offer
+  - Added in 34 animation commands to enhance the roleplay experience
+  - Added in the ability to turn a vehicle on and off buy using the Y key - Suggested
+
+Removed Features:
+
+  - Removed the beta drug based system and replaced with a more interactive experience
+  - Removed unrealistic skins from the clothing store - Reported
+
+Fixed Bugs / Updated Features:
+
+  - Fixed the critical server crash bug surrounding the new drug system
+  - Fixed a bug with the /setskin command being able to set non existant ids - Reported
+  - Fixed a bug with the animations not displaying correctly for the player

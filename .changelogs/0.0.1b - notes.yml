@@ -1,0 +1,33 @@
+Version: 0.0.1b
+
+Added Features:
+  - Check upon character registration
+    * This new feature will now check if the player has completed their registration process or not. Then if they log back in, it
+      will force them to complete the character registration segment
+
+  - Created a new login_spawn function
+    * This new feature allows the script to easily hold all spawning options under one section, easier to find and easier to update. I.E;
+      after dying, spawning at a hotel / house or even just in your old spot if you crashed
+
+  - Added in new char_money, char_coins, char_vip variables
+    * These new variables will be used for your characters earnt money, coins and vip status that can be used in events or general daily character
+      life.
+
+  - Saving User Interior / Virtual World Cords
+    * The system has now been updated to save the users virtual world and interior id upon quiting the server
+
+  - Added in custom money system
+    * This system updates every second to adjust users in game money to match what their account has in the database. This will stop hackers
+      from coming into the server and generating money for unfair gameplay advantage.
+  
+Removed Features:
+ 
+Fixed Bugs / Updated Features:
+
+  - Fixed interior maps of airport spawn
+    * Now the players wont fall through the map when loading into the area
+
+  - Fixed login screen / dialog view / spawn bug
+    * Now the player will see the login screen interloop_camera view and spawn correctly where they last logged out
+ 
+

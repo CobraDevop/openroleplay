@@ -1,0 +1,40 @@
+Version: 0.0.5a
+
+Added Features:
+
+  - Added in a new /duty command for the LSPD, LSFD and LSMC
+  - Added in a new layout for player command /stats
+  - Added in a new /fradio command for factions to chat with
+  - Added in a new /radio command for anyone carrying a radio can chat if on the same freq
+  - Added in a new license plate system for vehicles, unique to the vehicle id
+  - Added in a new mdc system to search up vehicle information
+  - Added in additional information into the mdc system to search up player information [licenses]
+  - Added in a new License parameter for players
+  - Added in /issuelicense command for LSPD and other approved factions
+  - Added in /setlicense command for Admins
+  - Added in /vremoveowner and /vremovefaction command for Admins
+   
+  
+Removed Features:
+
+  - Removed the old /duty command and reconfigured it as an additional feature
+  - Removed the old /stats layout design
+
+Fixed Bugs / Updated Features:
+
+  - Upgraded the server to house the new Open.MP configuration files
+  - Restructured all the WAAMP servers and reconfigured the database tables
+
+  - Updated the Purchased Business Pickup Icons
+  - Updated the string count for /stats command (wasn't showing all the text required)
+  - Updated the string color of /factionradio to match that of /radio
+
+  - Fixed the saving of user accounts bug (missing additional column against db)
+  - Fixed the load_doors error loop (door description flag)
+  - Fixed /gotobiz command that was spawning admin staff in blueberry farm
+  - Fixed the admin commands display page that wasn't formatting the full text
+  - Fixed the /commands bug when clicking Close it displays the selected result
+
+
+
+    

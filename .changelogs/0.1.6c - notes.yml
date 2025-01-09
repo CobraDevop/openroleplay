@@ -1,0 +1,30 @@
+Version: 0.1.6c
+
+Added Features:
+
+  - Added in a quick open beta message that displays to all new players advising of the process we are currently in
+  - Added in a new quick tutorial guide for new players that register on the server
+  - Added in /staffduty to the admin commands list
+  - Added in /stopjob for the electrician job
+  - Added in a new command /coins that lets player spend their coins if they don't want to purchase houses, businesses or factions
+  - Added in a new /rules command that lets the player see basic roleplay rules within this server
+
+Removed Features:
+
+  - Removed the old Airport Registration Spawn point
+  - Removed the old LSPD backup checkpoint clearing, the officer can use /clearbackup instead
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /phonebook commmand that wasn't displaying all online players
+  - Fixed a bug with the /spectate command that it was letting you spectate yourself
+  - Fixed a critical bug with the bank pin system
+  - Fixed a critical bug with the checkpoint system, added in an additional check to determine if GPS is being used or not
+  - Fixed a bug with the /settime command that was letting people set world clock at ungodly values
+  - Fixed a bug with the /settime command that wasn't updating the values corrrectly in the response message
+
+  - Updated the /call command to advise of generic numbers players can use
+  - Updated the /sellproperty and /sellfaction commands to now when sold if bought with coins it fails to payout
+  - Updated the registration spawn point to now reflect the airport exterior instead
+  - Updated the /rentcar command to display a confirmation box before taking money
+  - Updated the /duty command to display when LSPD, LSFD and LSMC members are on duty by adjusting their colors

@@ -1,0 +1,34 @@
+Version: 0.1.9b
+
+Added Features:
+  
+  - Added in the commnad /getfunds for business owners so that they can now extract their earned funds
+  - Added in a new gametext to advise players of money lost / received
+  - Added in a new transfendor option for customer license plates which now costs 100 coins
+  - Added in a new house safe system where players can store items using /storage command inside the house
+  - Added in a new break safe system where players are required to have 10 lockpicks to break into a safe in a house using /breaksafe
+  - Added in a new taxi job at Unity Station
+  - Added in a new private security faction near the mechanic yard
+  - Added in a new /eat command that increases a players health
+  - Added in a new /drink command that increases a players health
+  - Added in the ability for VIP members to now own more than one business
+
+Removed Features:
+
+  - Removed the old business system supporting one business purchasing
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /joinfaction command that wasn't registering factions 15 and 16
+  - Fixed a bug with the vehicle dealership titles being displayed in c# code parameters
+  - Fixed a bug with the RaceCheckpoint when a player uses /stoplicense
+
+  - Updated the recycle car command to now reset the license plate when a custom plate vehicle is recycled
+  - Updated the new registration spawn location to be at Unity Station
+  - Updated the rental car location to be at Unity Station
+  - Updated the help icons to be at Unity Station
+  - Updated the economy for businesses to make more money
+  - Updated the economy so factions can start making more money
+  
+
+

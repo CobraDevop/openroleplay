@@ -1,0 +1,39 @@
+Version: 0.1.6d
+
+Added Features:
+
+  - Added in the ability to reduce player RP jail time via /coins view
+  - Added in the ability to reduce the player admin jail time via /coins view
+  - Added in the ability to change the weather by using the weatherman perk via the /coins view
+  - Added in the /setweather command for staff and to work alongside of the /coins view perk
+  - Added in the command /perkban and /rperkban to stop people who abuse it
+  - Added in the ability to stop people from spamming perks by limiting perks to once every 30 minutes
+  - Added in the ability to remove your weapon ban via the /coins view
+  - Added in the ability to remove your faction ban via the /coins view
+  - Added in the ability to /givegun to another player
+
+  - Added in new commands /smuggle (weapon section), /searchbin, /buildparts and /buildweapon
+  - Added the abilty to find scrap metal via a metal dealer
+  - Added the ability to find gun powder behind ammunation
+  - Added the ability to build weapon parts
+  - Added the ability to construct weapons from the parts
+      5 parts for a knife
+      10 parts for a sword
+      20 parts for a pistol
+      40 parts for a shotgun
+      80 parts for an AK47
+  - Added the above parameters to the player inventory
+  - Added the ability to give a player their weapon that they have
+
+Removed Features:
+
+  - Completly removed the old registration spawn system which had an ongoing effect
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the registration spawn where it sets the player in a different interior ID - on flow effect from removal of airport interior
+  - Fixed a bug with the weapon building system, you couldn't see the animations
+  - Fixed a bug with the GPS arrival system
+  - Fixed a bug with the icon system not refreshing upon connection due to crashing
+
+  - Updated the /drag command to prompt a roleplay message when the user is dragging or has stopped dragging a player

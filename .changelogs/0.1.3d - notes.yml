@@ -1,0 +1,38 @@
+Version: 0.1.3d
+
+Added Features:
+
+  - Added a 15 second cooldown timer to the /helpme command to stop players abusing it - Requested
+  - Added in a new player job called Garbage Collector that provides an interactive experience collecting rubbish
+  - Added in a new audio stream for logging in or when registering on the server
+  - Added in a new shop dialog list (Fast Food)
+  - Added in a new shop dialog list (Bar / Alcohol)
+  - Added in a new shop dialog list (Donuts)
+  - Added in a new shop style (Clothing)
+
+  - Added in a new drug timer system to random spawn the crack dealer actor at random locations
+  - Added in a new command /smuggle, /bake and /usedrugs for players to utilise the new drug system
+  - Added in a new temp drug shack in place around the map near Dillimore township
+  - Added in drug using animations when baking and smoking / utilising the drugs
+
+Removed Features:
+
+  - None for this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed the busienss textdraw as the potential bug was due to the array length being to small, updated to 500 characters instead of 250 - Reported
+  - Fixed an issue with the tips random messages, spawning three in one go. Should only be doing one per 5 minutes - Reported
+  - Fixed an issue with the /stats command not allowing for the job name to correctly come through
+  - Fixed an issue with the store textdraw when chosing clothing - Reported
+  - Fixed the /slap bug - Reported
+  - Fixed the /nudge bug - Reported
+  - Fixed the /sethealth bug - Reported
+  - Fixed the /setarmour bug - Reported
+  - Fixed the /gotoplayer bug where you can teleport to yourself - Reported
+
+  - Updated the /stats dialog box to have all staff levels, not just admins - Reported
+  - Updated the /kick command to not allow staff to kick themselves - Reported
+  - Updated the /globalchat color to orange from yellow
+  - Updated the /pockets command to include a players specific choice of drugs on their person
+  - Updated the commands menu to display the correct positioning for certain commands - Reported

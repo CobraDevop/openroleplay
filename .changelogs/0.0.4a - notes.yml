@@ -1,0 +1,47 @@
+Version: 0.0.4a
+
+Added Features:
+
+  - Added in a new /commands dialog menu
+    * This now display all visible commands that players have access too during their gameplay
+
+  - Added in a new commands /givecoins
+    * This allows a level 6 admin to provide players with either lost/bugged coins or refunds
+
+  - Added in a new /factionban and /rfactionban commands for level 4 admin
+    * This can now assist admins with players who attempt to troll factions for fun
+
+  - Added in an intermediate banking system
+    * This now allows players to store money not on them to be easily robbed
+    * Added in new hardcoded bank desk location parameters
+    * Added in new menu sections surrounding the players lifestyle. I.E Personel account, business account and the stock market
+    (Business and Stock Market areas need to be built though)
+  
+Removed Features:
+
+  - Death System Animation
+    * Removed the old death animation as users were moving back upon repeat of animation
+
+Fixed Bugs / Updated Features:
+
+  - Login Spawn System
+    * Now if a player logs out with minimal health this will spawn them upon reentry into the local hospital for healing
+
+  - Death System Bug
+    * Now when a player dies, the IS_PLAYER_DEAD variable gets updated during the onplayerspawn procedure 
+      instead of being forced with spawnplayer function
+  
+  - On Death Animation Bug
+    * When the server restarts, the first person to die won't mimick the crack death animation, only after the first
+      player death all other users will mimick this function. After any updates / restarts, I will force a bot to die so
+      players do not end up getting bugged when they should be almost dead
+
+  - New players have pop up message about death when registering
+    * Added in the IsPlayerDead Variable to reset upon user leaving the server, this has stopped the bug
+  
+
+
+
+  
+
+

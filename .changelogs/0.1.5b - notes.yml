@@ -1,0 +1,35 @@
+Version: 0.1.5b
+
+Added Features:
+
+  - Added more preset house ID and settings to assist in generate house creations
+  - Added a new command that checks if the player is using an official client or not /playertype
+  - Added a new command that allows admins to freeze and unfreeze players
+  - Added a new command in /setrankname that allows faction owners to relabell rank names if required
+  - Added a new command in /unstuck for players to help themselves when staff are not online, there is logic to stop unwanted use
+  - Added a new command in /factions which displays a list of all the current factions we have
+  - Added a new command in /changepassword to allow players to update their password if they need too
+
+  - Added a new default payment system that lets player chose how they want to pay to for goods. Either Coins or Money
+  - Added a new command in /paymenttype which will toggle between coins and money for buying houses, factions and businesses.
+
+Removed Features:
+
+  - None in this release
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the LSPD property inspection job
+  - Fixed a bug with the /setskin command that lets you set a skin of an offline player id
+  - Fixed a bug with the LSPD property inspection job not resetting upon arrival
+  - Fixed a bug with the business textdraw and the faction textdraws
+  - Fixed a bug with the /pay command that lets people pay into negatives
+  - Fixed a bug with checking the state of the driver for the /engine, /lights, /bonnet, /boot and /flash commands
+  - Fixed a typo in the /ban command
+  
+  - Updated the FuelTimer function to not include the playerid parameters within the timer function '"i", playerid'
+  - Updated the LSPD property inspection job to advise online officers that someone has arrived on scene
+  - Updated the LSFD property fire job to advise online officers that someone has arrived on scene
+  - Updated the targetid commands to only allow changes for online players
+  - Updated the TIPS messages to be a different color than the chat general text options
+  - Updated the /buyfaction, /buybusiness and /buyproperty commands to work on the new default payment system

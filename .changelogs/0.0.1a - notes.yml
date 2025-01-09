@@ -1,0 +1,39 @@
+Version: 0.0.1a
+
+Added Features:
+  - Server Static Defines
+    * This will allow for a smoother development experience by generalising simple controls like
+      using SERVER_VERSION instead of typing out '0.0.1.a' all the time etc with other features
+
+  - SQL Static Defines
+    * This will allow for a smoother development experience by generalising simple controls like
+      using SQL_DB or SQL_USER instead of typing out 'database_name_etc' all the time
+
+  - Basic registration system
+    * This allows the user an experience of having options when creating a character, limited to certain
+      choices for the begining of the script development
+
+  - OnPlayerRequestClass View
+    * This allows the user to not have the "basic" login screen when a user joins a new server. It allows
+      for a bit of a scene change
+
+  - Saving users last spawn point
+    * This will allow a user to leave the server and log back in where they last were, instead of walking back
+
+Removed Features:
+  - Removed all printf functionality around the testing of the login system
+    * No longer needed as these feature now work
+
+Fixed Bugs / Updated Features:
+  - Registration completion was not updating DB with supplied information
+    * Changed '%e' to '%s' which has enable us to save via string instead of int
+
+  - Player coulnd't login to the server
+    * Updated the cache_get_field_content values for 'id' and 'password' to match in the DB table
+
+  - Blueberry spawn bug - (In relation to player saving last pos cords)
+    * Relocated the cache_get_field_content information down to where the user joins
+
+  - DIALOG_BOXES were very basic in design
+    * Reworded and updated the context of those said DIALOG_BOXES to have more detailed information
+

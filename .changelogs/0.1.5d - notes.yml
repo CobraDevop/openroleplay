@@ -1,0 +1,31 @@
+Version: 0.1.5d
+
+Added Features:
+
+  - Added a new message that provides VIP players with an expiry date upon logining into the server
+  - Added a new command /setvip that lets admins let the VIP level of a player
+  - Added a VIP help section to the /commands dialog display
+  - Added a new type for vehicles (vip vehicle and admin vehicles)
+  - Added in stock function IsVIPVehicle and IsAdminVehicle
+  - Added in an interior map for VIP players
+  - Added in VIP vehicles specific for VIP players only
+
+Removed Features:
+
+  - None in this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a massive security flaw with the selling of items to other players
+  - Fixed a bug with the mask OnPlayerStreamIn function that was re displaying the nametag when they got out of range
+  - Fixed a bug with the /summon command that wasn't returning any vehicles to the actioned player
+  - Fixed a bug with the VIP doors locking people from using them
+  - Fixed a bug with the /alarm command that was letting anyone arm a houses alarm system
+  - Fixed a bug with the /lock command that was letting anyone lock a house
+  - Fixed a ending bug with the garbage collection job
+
+  - Updated the /staff command to display if there is no staff online
+  - Updated the /commands (admin section) to display an error message if no staff member level is found
+  - Updated the /quitjob command to now request the user to be within the range of the job icon to quit
+  - Updated the garbage collection job to only be 5 pickups instead fo 10
+  

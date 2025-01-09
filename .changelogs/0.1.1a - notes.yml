@@ -1,0 +1,35 @@
+Version: 0.1.1a
+
+Added Features:
+
+  - Added a new interior map for the bank
+  - Added a new interior map for the bank vault
+  - Added in new permanent 3D Map Icons for the players to find out where they need to go
+  - Added a new door check function that stops players spawning in blueberry if the door interior doesn't exist
+
+  - Added a Bank Robbery system for all players, even faction players
+    - use /rope to enter the vault through the vents
+    - use /hack to open the door to the vault
+    - use /robbank to rob the bank of its money it currently holds
+    - Added an alert to advise the police when the player uses /robbank command
+
+  - Added a new /setadmin command for level 6 admins only to give admin levels in game
+  - Added a new /pay command for players to give other players money
+  - Added a new /billcustomer command for the mechanic faction
+  - Added a new /bills command so players can see a list of their bills
+  - Added a new /paybills command so player can pay their bills even when players are offline
+
+Removed Features:
+
+  - Removed the old licenses being saved everytime the player leaves the server
+  - Removed the old hotel_id being saved everytime the player leaves the server
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug where the new /hotwire command wasn't removing the lockpick once used
+  - Fixed a bug where the business virtual world wasn't matching that of the /shop command
+  - Fixed a major spawn bug that continously spawned players in blueberry and spiked the ackslimit
+  - Fixed a major proxdetector bug where anyone could see the messages being displayed, not within only the proximity
+
+  - Updated the existing faction job timers to be a tickcount instead of global timers to reduce CPU consumption
+  - Updated the MYSQL39.5 DB column restriction that was failing to create new records within the DB

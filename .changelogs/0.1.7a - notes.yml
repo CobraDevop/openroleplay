@@ -1,0 +1,27 @@
+Version: 0.1.7a
+
+Added Features:
+
+  - Added in the ability to purchase a weapon license from the city hall help desk
+  - Added in a command /cityhelp to give players the ability to adjust things about them
+  - Added in the ability to to see the /cityhelp command when standing on the icon
+  - Added in a fresh anti cheat code to detect specfic areas
+  - Added in new Gangs Ballas and Southside Varrios
+  - Added in a player count for the /factions command which will show how many factions members are online
+
+Removed Features:
+
+  - None for this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the bank password length that wasn't letting players register with the bank
+  - Fixed Garbage Collector object bug that wasn't disappearing upon completion of task
+  - Fixed a bug with the /searchbin command
+  - Fixed a bug with new players losing stuff after a crash
+  - Fixed a bug with the faction, business and house icons when people purchase with coins
+
+  - Updated the /buildparts command to provide players with 30 parts instead of 20
+  - Updated the /pockets dialog to show the players name
+  - Updated the /stats dialog to keep uniform across all dialog structures
+  - Updated the /avrespawn command to only respawn vehicles that do not have anyone in them

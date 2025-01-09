@@ -1,0 +1,28 @@
+Version: 0.1.8a
+
+Added Features:
+
+  - Added in the ability to remove a lock or alarm from a persons inventory once used
+  - Added in a new command /rego that allows players to see the vehicle that they own
+  - Added in a new command /showrego that lets player show other players their vehicles
+
+Removed Features:
+
+  - None for this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /searchbin, /buildparts and /buildweapons commands where you could only use them in a vehicle
+  - Fixed a bug with the faction message going to multiple factions instead of one faction
+  - Fixed a bug with the /fixpipe command that allowed you to clear jobs while in a vehicle
+  - Fixed a bug with the /spectate command, it now forces player spawn upon completion
+  - Fixed a bug with the /pay command as you could pay someone from anywhere on the map
+  - Fixed a bug with the bank robbery system, it now doesn't care if you are the one that has hacked or rappel in, anyone within the area can /rob
+  - FIxed a bug with the pizza delivery job to now show the entrance checkpoint when creating a pizza
+  - Fixed a bug with the garbage delivery job where you could pick up items while within a vehicle
+
+  - Updated the /flash commands to detect if the vehicle lights are off and turn them on automatically when command is used
+  - Updated the /gotocar and /getcar commands to only look for valid vehicle ids
+  - Updated the /checkstats command to include the new level system experience values
+  - Updated the /cbu command so that all players that are responding to a back up call get reset completly
+  - Updated the Non RP name checker to kick players one second after displaying the message

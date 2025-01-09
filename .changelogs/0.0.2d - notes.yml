@@ -1,0 +1,42 @@
+Version: 0.0.2d
+
+Added Features:
+
+  - Added in dynamic faction backend code - SQL loading results function
+    * This feature allows for faction information within the database to be extracted and match towards the system enums
+
+  - Added in next_faction_id function
+    * This feature allows the system to search / pull from the system the next avaliable faction id
+
+  - Added in /fnext and /finfo commands
+    * These commands will let you know what the next free faction is and display the current faction information
+
+  - Added in /fdelete and /fedit commands
+    * These commands will let the level 5 admins be able to manage and change any faction information
+
+  - Added in /commands or /cmds feature
+    * This new feature will allow users within the community the ability to see what commands they have access too
+  
+  - Added in command /quitfaction into the build
+    * This feature will allow players within the factions to leave said faction, without having to clear it with higher ranked players
+
+  - Added in command /joinfaction into the build
+    * This feature will allow any players to request an invite into any faction without having to register on the forums
+
+  - Added in command /fchat or /factionchat into the build
+    * This feature enables the faction members to speak in a private OOC chat between themselves
+    
+
+Removed Features:
+
+  - No features we removed in this version  
+
+Fixed Bugs / Updated Features:
+
+  - Updated /joinfaction command with IsPlayerInRangeOfPoint of pickup
+    * Now it will inform the player if they are near the pickup or not
+
+  - Fixed /fchat bug where players in game rank would not display in the ooc chat
+    * Updated the formatting of the array to store the value pre message send
+
+

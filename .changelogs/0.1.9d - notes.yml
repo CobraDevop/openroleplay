@@ -1,0 +1,23 @@
+Version: 0.1.9d
+
+Blocked Features:
+
+  - None on this version
+
+Added Features:
+  
+  - Added in a new command for players to locate their houses /findhouse
+  - Added in the ability to stop the trucking faction from using any vehicles to complete jobs
+  - Added in the ability for players to purchase a vehicle safe at transfender for 100 coins
+  - Added in the ability for players to now store drugs and weapon parts in their vehicles
+
+Removed Features:
+
+  - None on this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a major bug with the house inventory / storage system
+  - Fixed a major bug with the break safe system
+
+

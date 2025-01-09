@@ -1,0 +1,22 @@
+Version: 0.1.4b
+
+Added Features:
+
+  - Added in a cooldown timer for when someone has baked some drugs, this will stop them from over cooking
+  - Added in a gametext for the player to advise when they are baking
+  - Added in a new job called Electrician where they need to go around and repair traffic lights
+  - Added in electrician job vehicles
+  - Added in a new check to see if the electricians are on foot and not in their vehicle
+  - Added in a new command /flash which gives specific vehicles the ability to have flashing lights
+
+Removed Features:
+
+  - The ability to remove someone from a job vehicle if they were not actively on a job - Not required anymore as treated same as factions
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /mute command where you could mute yourself - Reported
+  - Fixed a bug with the /unmute command where you could unmute someone who wasn't muted - Reported
+  - Fixed a bug with the /mute system where if you a muted it stops you using general chat, faction chat, faction radio, radio, helpme or report features
+  - Fixed a bug with the job commands dialog display where it was only displaying for faction members
+  - Fixed a bug where the electrician job checkpoints weren't disappearing

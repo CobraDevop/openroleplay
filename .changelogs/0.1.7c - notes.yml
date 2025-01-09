@@ -1,0 +1,24 @@
+Version: 0.1.7c
+
+Added Features:
+
+  - Added in the ability to advise players what to type when they are near a business /shop point
+  - Added in a quit message that advises nearby players when a person has left [Kick / Ban / Quit / Crashed]
+  - Added in a info message to the person who is hoping into a vehicle with no engine on
+  - Added the ability to update the players bank money after a loan is approved if they are online
+  - Added in a message to advise the person if their bank loan was approved, while they are online
+
+Removed Features:
+
+  - Removed the requirement for new players to obtain a cellphone to use GPS without knowing where one is
+
+Fixed Bugs / Updated Features:
+
+  - Fixed the layout of the /do command
+  - Fixed a critical bug with the bank loan system, applying a reason too long
+
+  - Updated the /factions command to only show faction name and player count, only show faction id for faction staff
+  - Updated the GPS system to a more refined option that requiring a mobile device for day one
+  - Updated the Dillimore Gas Station Map
+  - Updated the Dillimore Pay n Spray Map
+  - Updated the TEXTDRAW Timers to not be based on a timer anymore for deletion, its based on position

@@ -1,0 +1,32 @@
+Version: 0.1.5a
+
+Added Features:
+
+  - Added a new security check while users are logging into the server
+
+Removed Features:
+
+  - Removed double up of /acceptdeath and /shop commands in the help section
+  - Removed the old DisableCheckpoint function that was hiding newly placed checkpoints for players
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the driving test parameters not reseting
+  - Fixed a bug with the /shop command not resetting and allowing people to use it after the fact
+  - Fixed a bug with the /recyclecar command as this wasn't updating the DB correctly
+  - Fixed a bug with the vehicle dealership system not restoring the values collected
+  - Fixed a bug with the /slap and /nudge commands advising of admin action instead of staff member
+  - Fixed a bug with the /closereport command that was giving the wrong player name
+  - Fixed a bug with /governmentradio, now speaks to all five factions involved
+  - Fixed a bug with the /buyfaction coin system
+  - Fixed a bug with /showlicense to yourself
+  - Fixed a bug with being able to pay yourself money from your own pocket
+  - Fixed a bug with the /report command that let people report non existant players
+  - Fixed a bug with the /unban and /offlineban command where you could action this against yourself
+  - Fixed a bug with the /pm command allowing people to private message themselves
+
+  - Updated the vehicle dealership system to locate the next vehicle ID upon request and not have the value just sitting there
+  - Updated the vehicle creation system for administrators where is creates vehicle now upon requests
+  - Updated the faction information guide dialog to fix the typo
+  - Updated the /fillup command to fix the typos
+  - Updated the /factionchat and /factionradio commands in the guide menu to better support what the commmands are

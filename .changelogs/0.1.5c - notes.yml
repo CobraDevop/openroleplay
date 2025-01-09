@@ -1,0 +1,24 @@
+Version: 0.1.5c
+
+Added Features:
+
+  - Added in a new admin command to check player statistics /checkstats
+  - Added in a new last login date stamp when the person logs into the server
+  - Added in a new /setfreq command that lets players pick what radio frequency they want to speak on
+  - Added in a new shop option at the 24/7 store (Radio)
+  - Added in a new /trueid command for admins to search for players using mask ids
+  - Added in a new chat for VIP members only /vipchat
+
+Removed Features:
+
+  - None in this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /checkstats command
+  - Fixed a bug with /pay command detecting the users specific amount required
+  - Fixed a bug with the /mask system where the mask wasn't spawning just above the head
+  - Fixed a critical server crash bug with the last login date time stamp addtion
+
+  - Updated the GPS system to display the new electrician job
+  - Updated all action commands to work alongside the new mask ID system

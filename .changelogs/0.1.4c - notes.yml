@@ -1,0 +1,29 @@
+Version: 0.1.4c
+
+Added Features:
+
+  - Added in a new map for the custom paint and spray garage
+  - Added in a new paint and spray system and provides players with generic colours to change on their vehicles
+
+  - Added the /flash command text for the /commands list
+  - Added in a /cancelrequest command that will let people cancel their own faction join requests
+  - Added in a new login textdraw view which nows displays when logging in or using registration
+  - Added in a new /ban command that lets staff ban in game players
+  - Added in a new /offlineban command that lets staff ban offline players
+  - Added in a new /unban command that lets staff unban players
+
+Removed Features:
+
+  - None for this release
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with /joinfaction where you could spam the command - Reported
+  - Fixed a bug with /sethealth where it wasn't checking both conditions only one - Reported
+  - Fixed a bug with /setarmour where it wasn't checking both conditions only one - Reported
+  - Fixed a bug with /slap command that was moving the player forward aswell instead of going just up - Reported
+  - Fixed a bug with the /assistance command that allowed player to spam it - Reported
+  - Fixed a bug with the new spray unit garage for vehicles
+  - Fixed a bug with /time command that was displaying an additional line of information not needed - Reported
+  - Fixed a bug with /bankaccount command syntax in the /commands menu - Reported
+  - Fixed a bug with the /spectate command - Where is wasn't allowing the person to spectate the player

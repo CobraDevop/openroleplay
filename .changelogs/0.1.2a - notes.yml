@@ -1,0 +1,21 @@
+Version: 0.1.2a
+
+Added Features:
+
+  - Added an additional vehicle type check into the vehicle system
+  - Added an additional vehicle destroy function where the vehicles are not techincally destroy, just moved and reused
+
+  - Added in a new command /getcar that moves a vehicle to the persons location
+
+Removed Features:
+
+  - None
+
+Fixed Bugs / Updated Features:
+
+  - Fixed /fname command parameter issue
+  - Fixed /frankname command parameter issue
+  - Fixed /vdelete command to incorperate the new vehicle check system
+  - Fixed /recycle command to incorperate the new vehicle check
+  
+  - Updated the data type within the faction icon float variables defaulting to NULL

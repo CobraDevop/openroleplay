@@ -1,0 +1,46 @@
+Version: 0.1.8c
+
+Added Features:
+
+  - Added in the ability to stop people using /joinjob and /quitjob while inside a vehicle
+  - Added in the ability to force players to turn their vehicles off when pumping fuel
+  - Added in the ability to freeze players while they are filling up their vehicles
+  - Added in the server configuration for the weed plant system
+  - Added in the ability to cancel a response to a backup LSPD call
+  - Added in the ability for LSPD members to now hold a physical taser
+  - Added in the ability to detect is a user has been shot by the taser
+  - Added in the ability for LSPD to remove Cocaine, Heroin and Weed from a player when searched
+  - Added in the ability for admin level 4 and higher to use /setstat which has replaced /givemoney and /givecoins
+  - Added in a new commnad for level 3 staff and higher /giveitem to give players items they may of lost
+  - Added in a new command for level 3 staff and higher /giveweapon
+  - Added in a new command for LSPD faction /removeweapons
+  - Added in a new command for business owners /checkfunds which allows them to see the business profit
+
+Removed Features:
+
+  - Removed the client message advising that they have purchased a Hermes when they haven't
+  - Removed the old /taser system where the user had to enter in an id of the person they were chasing
+  - Removed the /givecoins command
+  - Removed the /givemoney command
+  - Removed the old /giveweapon command
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /joinfaction command. It was sending messages to faction owners saying they requested to join
+  - Fixed a bug with setting the characters skin back if they decide to /quitfaction before /stopjob
+  - Fixed a bug with the Garbage Collector Job checking if the nearest vehicle is a trashmaster
+  - Fixed a bug with the /backup, /cancelback and /respond LSPD commands
+  - Fixed a bug with the /drag command that wasn't updating the virtual world of the user
+  - Fixed a bug with the /installlock and /installalarm commands
+
+  - Updated the Binco Clothing Store Design to a new look providing clothing information like cost and name
+  - Updated the Gas Station Store Design to a new look providing better product pricing and support
+  - Updated the Electronic Store Design to a new look providing better product pricing and support
+  - Updated the Fast Food Store Design to a new look providing better product pricing and support
+  - Updated the action responses to now be in blue
+  - Updated the update responses to now be in yellow
+  - Updated the job responses to now advise players in blue when they have earnt money
+  - Updated both Pizza Delivery and the Electrician job to now require the player to drive back to base
+  - Updated the FuelTimer Array to ignore the player id const
+  - Updated the driving school waypoints to be race checkpoints instead of generic checkpoints
+

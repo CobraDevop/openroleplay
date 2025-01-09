@@ -1,0 +1,28 @@
+Version: 0.1.1b
+
+Added Features:
+
+  - Added a new /admins command that display all online admins within the server - Request By Wayne
+  - Added a new permanent LS Bank interior
+  - Added a new pickupmodel for the /bankaccount command position
+  - Added a new gametextforplayer value for /bankaccount command position
+  - Added a new gametextforplayer value for /rappel command position
+  - Added a new /pockets command for players to see what is in their pockets
+  - Added a new /assistance command that alerts admins online that a player requires help
+
+  - Added 14 new businesses into the game with new preset costs
+
+Removed Features:
+
+  - Removed the old LS Bank interior
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug where the user could deposit money using negative amounts which gave the user more money - Reported by Wayne 
+  - Fixed a bug where the user could withdraw money using negative amounts
+  - Fixed a switch case statement issue with the admin name text on the /admins command
+  - Fixed a major critical bug with the DB structure. The Float was replaced by INT record, fixed now
+  - Fixed a bug with the total_houses and total_businesses not saving the values for the /stats screen
+  
+  - Updated the /bsettype command to include an additional two business types
+  - Updated the existing door entrance notification to include the door name to assist players

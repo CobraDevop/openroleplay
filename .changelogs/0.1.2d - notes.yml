@@ -1,0 +1,30 @@
+Version: 0.1.2d
+
+Added Features:
+
+  - Added a new command /stopjob to help players cancel their current job status ealier
+  - Added a new command /funds for any factions going forward requiring to manage their own funds (LS BANK to start with)
+  - Added a new command /getlicense to obtain your license at the driving school
+  
+  - Added in the ability for all other factions to utilise the /joinfaction system
+  - Added in the ability for Tow Company employees not being booted from vehicle when entering
+  - Added in the ability for Tow Company employees to use the /duty command and /gate command to get out of their main base
+  - Added in a new interior for the Towing Company faction
+  - Added in a new map for the driving school and the junk yard lockup
+
+  - Added in a new driving school system to allow people to obtain their motorocycle, car and truck licenses (Boat and Pilots will be done via RP [Weapons License obtainable from PD])
+
+Removed Features:
+
+  - None removed from this update
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the checkpoint response for the Trucking Delivery Job
+  - Fixed a bug where you could approve anyone into your faction without an application
+  - Fixed a bug where you could reject anyone from your faction without an application
+  - Fixed a bug with the searching to near vehicle when towing, didn't break once found vehicle and kept looping
+  - Fixed a bug with the /acceptcall command that treated all calls as emergency
+
+  - Updated the LSPD, LSFD and LSMC join faction icon positions for a more general server feel
+  - Updated the Bank command /computer to only work for players with rank of level 2 or higher, we don't want random people giving money out

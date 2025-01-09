@@ -1,0 +1,30 @@
+Version: 0.1.8b
+
+Added Features:
+
+  - Added in the ability to remove players from the driving school vehicles if the use /stoplicense and respawns the vehicle
+  - Added a helper message alert to staff when a player uses the command /unstuck to draw attention to their situation
+  - Added in two more job types for the electrician. They now get randomly giving different jobs to attend
+  - Added in an additional job for the trucking company faction to now deliver goods to local businesses
+  - Added in a new command /blindfold that lets people kidnap others more realistically
+  - Added in the ability for faction members to now lock and unlock their vehicles
+  - Added in a new command /houses so that players can see what houses they own and the value
+  - Added in the ability to respawn all unused vehicles every two hours and 30 minutes
+  - Added in the ability to force on duty staff to go off duty if they die during roleplay
+
+Removed Features:
+
+  - None in this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /showrego command
+  - Fixed a bug with the /vchat command where the VIP chat was going to helpers and not VIPs
+  - Fixed a bug with the /checkstarts command where the new level exp required wasn't showing
+  - Fixed a bug with the /ticket commnad that you now have to be within the vacinity of the player to ticket them
+
+  - Updated the electronic store dialog designs
+  - Updated thes server tip messages
+  - Updated the trucking company factions commands from /startjob and /stopjob to /pickroute and /endroute
+  - Updated the job missions to now show how much money they make upon completion
+  - Updated the all action admin commands to require the admin to be on duty before using them

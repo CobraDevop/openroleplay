@@ -1,0 +1,39 @@
+Version: 0.1.0a
+
+Added Features:
+
+  - Added in a new flag for LSFD vehicles as a stock function
+  - Added in a new flag for LSMC vehicles as a stock function
+  - Added in a new license check system that warns players if they are operating vehicles without specific licenses
+  - Added in new removal of player that doesn't below to LSFD or LSMC faction from thier vehicles
+
+  - Added a New GPS system has been implemented into the script
+   - Command /gps will display the most popular locations to help new players in navigating the map
+   - we also added in the ability to cancel your gps location by using the /cancelgps command
+
+  - Added a new fuel timer into the script and applied the start and stop function to the /engine command
+   - Applied additional start and stop functions to when the state of the driver changes against the timer
+   - Added in new textdraw designs to cover the fuel in the vehicle parameters
+   - Added a new fuel gage system to detect how much fuel you have in your vehicle
+   - Added in a new /fillup command for gas stations
+
+  - Added a new /gmx command that lets the level 6 admins have the ability to warn the community 5 minutes before a global restart
+
+  - Added in a new map for the car mechanic place
+  - Added in a new map for the tow company place
+  - Added in a new map that stops people using the vehicle respray or fitting units
+
+Removed Features:
+
+  - Removed the old {Character Update} text from when a player has an update to their character
+    it was taking too much space on the text board
+
+Fixed Bugs / Updated Features:
+
+   - Fixed the license check system that warns players. Had an issue where it was advising the person was driving
+     a car aswell as a motorcycle
+   - Fixed a bug where the fuel wasn't saving in the vehicle upon server being restarted using gmx command
+   - Fixed a bug where the vehicle speedo wasn't returning the fuel or speed values correctly
+   - Fixed a bug where the refuel timer wasn't stopping an kept charging players
+   - Fixed a bug where is wasn't displaying the cost of the fuel that was charged to the player
+   - Fixed a bug where if a player spawns with the CJ skin, it forces you to use your default slot 1

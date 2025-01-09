@@ -1,0 +1,34 @@
+Version: 0.1.2c
+
+Added Features:
+
+  - Added in a new payday system for all players to enjoy, doesn't matter if you're in a gang or a cop, we all earn similiar pays
+   - General Player with no faction, you get 3% on top of the std server amount
+   - All other ranks and factions go up from there
+
+  - Added in a new payday VIP coins system for donator players to earn coins on the fly based on their level
+   - General players will earn coins but only one per 30 minutes
+
+  - Added in a new command for the bank faction /computer which allows them to review all loan applications from civilians
+   - This faction has a limit of what they can approve every week
+   - This faction can reject your loan, they are not forced to accept it
+  - Added in the ability to apply for personal loans using the bank system for players
+   - You have to provide a value and reason for the loan
+   - You can view all your existing applications too
+
+  - Added in a new job for the Trucking Company [Money Drop]
+   - This job will allow the trucking company the ability to drop moeny off the bank when required (Not an all the time option)
+  - Added in a new job for the Trucking Company [Parcel Delivery]
+   - This job will allow the trucking company the ability to delivery parcels to local houses for money
+
+Removed Features:
+
+  - None for this release
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug where if the player /quitfaction instead of /sellfaction when they purchased it, it wouldn't let them buy any more factions
+  - Fixed a bug with the new bank loan system, wasn't saving to the users information when approved
+  - Fixed a bug with the new bank loan system, wasn't displaying the full character set of the reason for the loan
+  - Fixed a bug with the new bank application system, wasn't adding new loans the loan table in the database
+  - Fixed a bug with the compiler crashing due the hashbyte count on a function I overloaded

@@ -1,0 +1,19 @@
+Version: 0.1.1d
+
+Added Features:
+
+  - Faction System Updates
+    - Added in a new /buyfaction command for players
+    - Added in a new /sellfaction command for players
+    - Added in new commands for admins /ficonpos /fsetcost /fsetowner /fremoveowner /fname /frankname /fsettype
+    - Added in a new dynamic info display at the faction icon position
+      - This will display all related information surrounding the faction, who owns it etc like a business
+
+Removed Features:
+
+  - Removed the original dynamic faction system that was created back in the first 0.0.2 phase and replaced with a up to date solution
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the registration skin system, wasn't setting skins correctly based on selected gender
+  - Fixed a bug with the faction purchasing and selling where it wasn't updating the players faction parameters

@@ -1,0 +1,27 @@
+Version: 0.1.7b
+
+Added Features:
+
+  - Added in the command /stoplicense which helps players that want to quit their driving course
+  - Added in the driving school into the /gps system
+  - Added in the ability to change to your job outfit once you start a route
+  - Added in the ability to change back to your preferred outfit once you finish the job
+  - Added in the roleplay action to the /change command, now players know when someone has changed their outfit
+
+Removed Features:
+
+  - Removed all other character sex types to keep it consistant for faction setup
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /vcreate command for admins
+  - Fixed a bug with the dealership system for players not spawning vehicles at the right location
+  - Fixed a bug with the bank approval loan system, now applies bank amount to the users bank account funds
+  - Fixed a bug with the saving on duty skins when relogging. Removed the ability to save on duty skins
+  - Fixed a bug with the hells angels interior map
+
+  - Updated the /quitjob command to advise players that they aren't near their current job location to quit
+  - Updated the ammunation failure dialog to advise against all weapons not just knifes
+  - Updated a typo in the commands description area
+  - Updated a type with the dude fix roleplay action
+  - Updated the typo in the job section

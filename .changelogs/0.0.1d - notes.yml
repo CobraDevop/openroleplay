@@ -1,0 +1,33 @@
+Version: 0.0.1d
+
+Added Features:
+
+  - Added in /me, /do command
+    * These commands allow users to roleplay with each other by keeping the descriptive text localised
+
+  - Added in /whisper, /shout, /ooc and /global chat commands
+    * These commands will allow users to speak with better ingame commands, allowing for selective global and localised chat discussions.
+
+  - Added in new admin command /globalchat [value]
+    * This command will allow the global chat to be turned on and off at any point by admins
+
+  - Added in a new Dynamic door system
+    * Now all doors within the server can be accessed in game by using the /ddedit, /ddinfo, /ddnext, /ddname, /ddfaction and /dddelete commands
+
+
+Removed Features:
+
+  - Removed the old dynamic door loading system
+    * Now we have a new custom system to run a query under each id to return accurate values
+  
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug on LoadDoors (new Dynamic door system)
+    * This bug refused updating of the specific feilds required in the database.
+
+  - Dynamic door pickups wouldn't delete upon deletion
+    * Replaced static pickup controls with dynamic pickups
+
+
+

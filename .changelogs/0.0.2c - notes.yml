@@ -1,0 +1,37 @@
+Version: 0.0.2c
+
+Added Features:
+
+  - Added in a new guide feature to help new users when joining the server. They can locate this within the terminal
+    * This feature will give them brief information around certain topics and small guides as to what they can expect
+
+  - Added in a new /hsetowner command for admins
+    * This lets the staff give players ownership of propertys within the server
+
+  - Added in command /hremoveowner for admins
+    * This lets the staff remove any online player from their property and sets it to resell for the public
+
+  - Added in player commands /buyproperty and /sellproperty
+    * This lets players have the ability to purchase homes in game using either coins or money and then selling the property for
+      money only payout, not coins  
+
+Removed Features:
+
+  - Removed old dynamic entry door system with the double tap of the enter key
+    * Now players only need to tap the entry point once to enter the pickup id location
+
+
+Fixed Bugs / Updated Features:
+
+  - New users weren't able to register in the server successfully
+    * This was caused by an issue with the character-house-id player variable within the database. This has been corrected
+
+  - Updated the range that the user has to be for the info box to pop up on the dynamic doors
+    * This was adjusted from 5.0 radius down to 3.0 radius
+
+  - Once a player purchases a house or gets given one, the textlabel doesn't update owner name accordingly. Shows ([first letter]ULL)
+    * Fixed this by placing an array into the command which stores the value of the characters name and removed the playerdata variable
+      from the equation
+
+
+

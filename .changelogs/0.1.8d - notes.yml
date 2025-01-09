@@ -1,0 +1,32 @@
+Version: 0.1.8d
+
+Added Features:
+
+  - Added in the ability to provide business owners with 3% profit gain on all sales
+  - Added in a new locker system for the LSPD faction utilising the /locker command
+  - Added in a new locker system for the LSFD faction utilising the /locker command
+  - Added in a new locker system for the LSMC faction utilising the /locker command
+  - Added in a new faction "Driving School", this faction now has the ability to give licenses to players
+  - Added the Driving School faction to the /issuelicense command
+  - Added in the IsSchoolVehicle for the Driving School faction
+  - Added in the commands /starttest and /stoptest for the Driving School faction
+  - Added in the RepairVehicle functionality into the Transfender garage, instead of just setting the HP of the vehicle
+  - Added in a new LSMC interior map for the hospital
+  - Added in a heal icon inside the hospital
+  - Added in a new command for players to active their own VIP rewards /redeem
+
+Removed Features:
+
+  - Removed the /duty command for the LSPD faction
+  - Removed the old LSMC interior map
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /fstaff command, it now shows only your faction staff that are online, not everyone
+  - Fixed a bug with the /report commnad
+  - Fixed a bug with the /redeem command
+  - Fixed a bug with the new health pickup icon at the hospital
+
+  - Updated the old /duty icons from an info icon to a clothing icon
+
+

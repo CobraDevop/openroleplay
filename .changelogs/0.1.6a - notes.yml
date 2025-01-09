@@ -1,0 +1,28 @@
+Version: 0.1.6a
+
+Added Features:
+
+  - Added in GPS information messages when setting up locations
+  - Added in an additional 110 houses
+  - Added in a new admin command /sendtols which enables staff to send players back to the main point
+  - Added the ability for admin staff to utilise the /global chat command while it is turned off
+  - Added a new /staffduty command to advise the server when a staff member has gone on duty or off duty
+  - Added in a binco clothing store check that sees if a player is still within the error, if not reset variable
+  - Added in four new actors within the VIP area, three dancers and one barman
+
+Removed Features:
+
+  - None for this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the /factionban that wasn't removing people from the faction
+  - Fixed a bug with the /fire command that was letting faction owners fire themselves
+  - Fixed a bug with the /hsetaddress command that was dispalying the players name instead of the address
+  - Fixed a bug with the /bnext command, wasn't displaying the true value of the next business ID
+  - Fixed a bug with the /summon command that wasn't allowing admins to enter the vehicles
+  - Fixed a bug with the /setrankname and /frankname commands as the string length wasn't accepting the large variance
+
+  - Updated the player notification messages to contain a - instead of a >
+  - Updated the /staff command so players can see when staff are on duty or off duty
+  

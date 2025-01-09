@@ -1,0 +1,50 @@
+Version: 0.0.5d
+
+Added Features:
+
+  - Added a new command for the LSPD /placeincar (This command will become avaliable to general public later on, one the tie command has been created)
+
+  - Added a new Phone System
+    - New character_has_phone player parameter (This will determine if the character can make any calls)
+    - New character_has_simcard player parameter (This will determine if the character can call emergency services only or make generic calls)
+    - New WhoIsCalling global variable (This will allow us to check if a player is calling another, if they are on the phone or not)
+    - New HasCallBeenPickedUp global variable (This will allow us to check if the player has picked up the phone call or not)
+
+    - Added in a new command /call, /pickup and /endcall
+    - Added a new emergency hotline number within the /call command (/call 111)
+    - Added in a new /acceptcall command for LSPD, LSFD and LSMC factions
+      When you call the emergency line, they will be able to accept your call which gives them
+      your current location
+    - Added a new /givephone command which randomly generates a user a number after checking other users
+    - Added a new command so players can look at their phonenumber if they have one
+    - Added a new simcard system for purchasing
+    - Added a new mobile system for purchasing
+
+  - Added a new shop system
+    - New /shop command that allows user to purchase items to specific type businesses
+    - New DIALOG_TYPE paramters defined to determine what type of store is being activated
+
+    - Setup purchasing abilities for the 24/7 shop
+    - Setup purchasing abilities for the supermarket shop
+    - Setup purchasing abilities for the electronic store
+
+  - Added a new /phonebook system for players to search up other player contact details
+    - Added a new /publicphone toggle option that will hide players from the /phonebook search if required
+
+Removed Features:
+
+  - No features have been removed
+
+Fixed Bugs / Updated Features:
+
+   - Fixed bug that wasn't registering when a user was in a phone call
+   - Fixed bug with the /endcall function where is wouldn't return a successful call
+   - Fixed bug where the /pickup command wasn't resetting upon new player login
+   - Fixed bug in relation to the /arrest function that would continously spawn the user at the exit point every minute
+   - Fixed bug in relation to the login spawn deaths. Now everytime you spawn you are hovered above the ground by 0.1 % to eliminate any object deaths
+   - Fixed bug in relation to the /joinfaction command. Wouldn't fully complete.
+   - Fixed bug in relation to /requests command that wouldn't load any player details
+   - Fixed bug where /shop icon wasn't displaying in the right position
+   - Fixed bug where script was updating character house id and not character business id
+   - Fixed bug with mobile phones that never checked if the person making the call has a simcard
+   - Fixed bug where you can respond to 911 calls off duty (you should be on duty to accept calls)

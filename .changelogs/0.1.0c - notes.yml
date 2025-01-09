@@ -1,0 +1,32 @@
+Version: 0.1.0c
+
+Added Features:
+
+  - Mechanic Faction
+    - Added /duty command to enable their staff to go online to receive call outs
+    - Added /gate command to unlock / lock their front gate at their faction base
+    - Added /acceptcall ability from phone calls for the faction
+    - Added /call ability so that people can request mechanic help by calling 999
+    - Added /fillvehicle command so that the mechanics can refill a stranded vehicle
+    - Added a new moveable gate for the faction so that the vehicles within their lot are safe
+    - Added /fix command so that the mechanics can repair damaged vehicles
+    - Added /checkgear command so that the mechanics can check how much gear they have on them for repairs
+    - Added /acceptjob ability for the new mechanic jobs that random spawn
+
+  - Server Based Functionality
+    - Added a new global timer to detect when a vehicle is about to explode and stop it from doing so
+    - Added in a new check on vehicle damage, that if vehicle has damage less that 300, it will turn the vehicle off and reset the health
+
+Removed Features:
+
+  - Removed the old IsPlayerInRangeOfPoint for the Mechanic Job and switched it to a timer instead
+  - Removed the old hard coded faction vehicles and replaced with database dynamic vehicle values instead
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the Mechanic faction from gate. Wasn't moving when provided the new cords
+  - Fixed a minor bug with the mechanic job, where it wouldn't check upon entry of checkpoint if the vehicle was still there
+  - Fixed a critical bug with the LSPD job that was crashing the server upon job completion. Acks limit reached peak
+
+  - Updated the foreach include to account for warning issues in relation to the OnGaemodeInit functionality
+  - Updated multiple dependencies for vunrabilities within the includes directory (most changes have been to speed up processing)

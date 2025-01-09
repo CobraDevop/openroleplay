@@ -1,0 +1,32 @@
+Version: 0.1.4d
+
+Added Features:
+
+  - Added in a new list of commands feature for smaller devices /mcmds that only display client messages
+  - Added in a new map for Persian Square in los santos
+  - Added in a new command /gradio which is a radio frequency that only government factions can use
+  - Added in a new command /megaphone which is used within specific vehicles
+  - Added in a new command /showbadge which shows the player if the faction member has an active badge or not (Factions can RRP their own badge ids)
+  - Added in a new mask system that allows player to hide their identity from anyone around them
+  - Added in a new command /mask that allows the player to put a mask on
+  - Added an additional mask purchasing option to the 24/7 business type store
+
+  - Added in a new house alarm system that will require people to hack into it before robbing or police are advised
+  - Added in a new house lock system that will require people to lockpick houses before entering the property, police are not advised on this one
+  - Added in new commands /lockpick /lock /alarm for new house systems
+
+Removed Features:
+
+  - None in this version
+
+Fixed Bugs / Updated Features:
+
+  - Updated the /gotoplayer command to be accessible by moderators
+  - Updated the /getplayer command to be accessible by moderators
+  - Updated the location of the medical faction
+  - Updated the /hack command to also work with the new alarm system for houses
+  - Updated the location of the LSMC faction icon position
+  
+  - Fixed a bug with the IsGang4Vehicle function that was referring to factionid 10 not 13 - Reported
+  - Fixed a bug with the /commands job section where it wasn't displaying the right job commands
+  - Fixed a critical bug with the new mask system not storing the data correctly and crashing the server

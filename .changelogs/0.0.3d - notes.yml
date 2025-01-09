@@ -1,0 +1,49 @@
+Version: 0.0.3d
+
+Added Features:
+
+  - Added in new player health / armor saving variables
+    * Now the server will store the players health and armor when a user logs out or quits the server
+
+  - Added in a new player death and injury system
+    * This allows the user to roleplay out injuries and also restricts them once they get into hospital. This
+      restriction will force them to stay in hospital for one minute before leaving
+
+  - Added in new /acceptdeath command
+    * Now the players can choose when they want to accept the death of their character (This allows for roleplay
+      to continue on before they decide to give up)
+
+  - Added in new Hospital Interior (temp)
+    * Just for location purposes at this current time, we are using a temp map found online
+
+  - Added in new command /setskin for admins
+    * This will allow admin level 3 and higher to set the skin of a player
+
+  
+Removed Features:
+
+  - Removed the old saveuserinformation function as this was splitting the variations into too many procedures which used up ram space
+    and crashed the connections
+    * Replaced with new and improved system
+
+Fixed Bugs / Updated Features:
+
+  - Some character features were not being saved upon player exiting game
+    * This has been fixed by applying multiple queries at all commands in which targetid is applied to break up the 
+      amount of queries running at the point of logout
+
+  - Not all player information was being saved during the mysql query set
+    * This has been fixed by incorperating all three queries into one preset field. 
+
+  - Player health and armor wasn't saving correctly as a float variable
+    * Updated the procedure to run the check first and then apply the float to the players information
+
+  - Admin jail system wasn't updating user account db upon command execution
+    * Updated the SSCANF preceeding value to match the name variable
+
+
+
+
+  
+
+

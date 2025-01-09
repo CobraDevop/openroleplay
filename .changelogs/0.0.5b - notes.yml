@@ -1,0 +1,23 @@
+Version: 0.0.5b
+
+Added Features:
+
+  - /mdc command has been added into the system for the players
+  - /drag command has been adedd into the system for the players and factions
+  - /tie command has been added into the system for the players
+  - /backup command has been added into the system for the factions
+  - /change command has been added into the system for the players
+  
+Removed Features:
+
+  - Removed two options from the Police MDC screen (Will add houses and business information to the MDC at a later date)
+  - Removed one option from the Police MDC screen (Police can now veiw licenses within the general player information screen)
+
+Fixed Bugs / Updated Features:
+
+  - Updated the door system so that you cannot enter in a faction door that is restricted
+  - Updated the positoning structure for the business door pickups
+  - Updated the backup alert system to now notify faction members that a backup has been cancelled or reached
+
+  - Updated the /cuff command which doesn't allow you to cuff yourself now
+  - Updted the /tie command which doesn't allow you to tie yourself now

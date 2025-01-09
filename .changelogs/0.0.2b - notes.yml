@@ -1,0 +1,38 @@
+Version: 0.0.2b
+
+Added Features:
+
+  - Added in a temp LSPD interior
+    * Basic map credit to GoldenToast - This basic fill in is to get the doors in place
+
+  - Added in a new dynamic house system
+    * This will enable players to live in homes and gain interest on properties they hold (MAX of 200 houses at the moment)
+
+  - Added in a new /hsetcost command for admins
+    * This enables staff to set the cost of a house either by coin value or money value
+
+  - Added in a new character_house_id variable for players
+    * This will determine if the user has a house and linked to what house id they own
+
+  - Added in server global time and textdraw to link to it
+    * This will enable everyone to play on a global time period
+
+  - Added in textdraw notification bars
+    * This will give more information to doors, entry points and character news when it becomes avaliable
+
+Removed Features:
+
+  - Removed the old server_sec_timer as this was crashing out the notification_textdraw
+    * Rebuilt this feature all over again
+
+Fixed Bugs / Updated Features:
+
+  - Door pickup doesn't delete upon position change 
+    * Updated the code to match the creation native DestroyDynamicPickup
+
+  - Houses are not deleting upon completion of command
+    * This has been updated to reflect change
+
+
+
+

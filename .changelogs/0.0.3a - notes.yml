@@ -1,0 +1,39 @@
+Version: 0.0.3a
+
+Added Features:
+
+    - Added in a new feature command called /setrank
+      * This feature will let the high commanding staff within a faction the ability to increase someones rank in game
+
+    - Added in another few commands for players /hire and /fire
+      * This feature will let the high staff within the faction the ability to hire and fire people at will
+
+    - Added in commands /acceptrequest and /rejectrequest
+      * These features will allow faction leaders the ability to accept or reject any ingame applications to join the faction
+        (please note that all /joinfaction requests are all temp until the user leaves the server)    
+
+    - Added in feature /requests for the faction leaders
+      * This feature will allow the leaders of factions to view player id's and names of accounts that have applied to join
+        the faction in game
+
+    - Added in new player level and experience system
+      * Once a player hits 8 experience hours, they level up to the next avalible number. They cannot /levelup like other rp servers
+
+    - Added in new player variables that collects, level, experience, last spawn etc
+
+Removed Features:
+
+    - Removed the old login spawn system and replaced it with a brand new location reader function
+
+Fixed Bugs / Updated Features:
+
+    - Updated login spawn system
+      * Now if you own a property and you haven't logged in within the last hour, you will spawn at your house location. If you do login
+        within the hour of logging out, you will spawn back at where you logged out
+
+    - Players were unable to login to the server and spawn at their house upon relogging in
+      * This has been updated to read the house id that was purchased and puts the player at the correct location
+
+  
+
+

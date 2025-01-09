@@ -1,0 +1,25 @@
+Version: 0.0.5c
+
+Added Features:
+
+  - Added in Fuelcans, Lockpicks, Drugs, Food, Drinks and Alchol as inventory items for players
+  - Added in new Inventory Items into the User_Information table in the DB directory
+  - /search command added into the system for LSPD faction members
+  - /search command now has ability to take items from player on their persons
+  - Added in a new hotel system for players that cannot purchase houses early on in the game
+  - Added in /rent and /unrent commands for the hotel system
+  - Added in a respawn timeout against the hotel system, so players spawn back at the hotel if gone too long from the game
+  - Added new buy point logic to the businesses, now all businesses can have their own buy point
+  - Added a new /arrest command for the LSPD faction
+  - Added a new /ticket command for the LSPD faction
+
+Removed Features:
+
+  -  Removed the Dynamic Hotel System that was built during this verison release. Easier to hard code the functions and use into the script
+
+Fixed Bugs / Updated Features:
+
+  - Fixed the /search command that wasn't displaying a players fuel cans
+
+  - Updated the GameTextForPlayer parameter
+  - Updated the commands section for the admin staff

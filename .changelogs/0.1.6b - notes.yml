@@ -1,0 +1,29 @@
+Version: 0.1.6b
+
+Added Features:
+
+  - Added in a locker system for VIP members and provided with small amount of options
+  - Added an additional feature to the ammunation store that if recently robbed, it won't let anyone purhcase any weapons
+  - Added in the ability to rob the 24/7 store
+  - Added in the ability to rob the gas station
+  - Added in the ability to rob the supermarket
+  - Added in a new /settime command that lets all admins adjust the server if needed
+  - Added in a updatable time structure for the SERVER_HOUR, SERVER_MINUTES and SERVER_SECONDS
+
+Removed Features:
+
+  - None this version
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with medical faction going on duty and receiving weapons
+  - Fixed a bug with the /drag system that wasn't unfreezing a player after stopping the drag
+  - Fixed a bug with the lspd, lsfd and lsmc faction calls, not resetting upon completion
+  - Fixed a bug with the towing and mechanic call system, that wasn't ending the phonecall
+  - Fixed a bug with the /rob command that wasn't advising if the spot was able to be robbed or not
+  - Fixed a bug with players being able to buy weapons when weapon banned
+
+  - Updated the admin commands to not let lower admins perform actions on higher ranked staff
+
+  
+  

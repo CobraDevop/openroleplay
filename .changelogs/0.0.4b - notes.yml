@@ -1,0 +1,47 @@
+Version: 0.0.4b
+
+Added Features:
+
+    - Dynamic Business System
+      * Added in a new dynamic business system which allows players to be able to purchase businesses and sell items to other users. This
+        back end code around the loading of the information has been completed
+
+      * Added in new commands /bsetowner, /bsetname, /bdelete, /bnext, /binfo, /bsettype, /bsetcost etc for admin staff to preset all business
+        locations within the server
+
+      * Added in new commands /buybusiness and /sellbusiness for players to purchase these properties
+
+    - Admin System
+      * Added in a new command called /getplayer, which allows admin to teleport players to their current position
+
+      * Added in a new command called /gotoplayer, which allows the admin to teleport themselves to a player in game
+
+      * Added in new command /gotodoor, which allows admins to teleport to any dynamic door they wish
+
+      * Added in new command /gotohouse, which allows admins to teleport to any dynamic house they wish
+
+      * Added in two new commands /weaponban and /rweaponban. These two new commands can let admins monitor and review who has access to weapon use etc
+        within the server, more so for the safety of roleplay scenes
+  
+Removed Features:
+
+    - No removed features at this time
+
+Fixed Bugs / Updated Features:
+
+    - Dynamic door system wasn't setting the players facing angle
+      * This feature wasn't established yet and has been recently added in
+
+    - Dynamic house door system wasn't setting the players facing angle
+      * This feature wasn't established yet and has been recently added in
+
+    - Fixed the /achat command which was only displaying the message to the player using the code and not to all staff
+
+  
+  
+
+
+
+  
+
+

@@ -1,0 +1,35 @@
+Version: 0.1.0b
+
+Added Features:
+
+  - Added a new job for the LSPD officers where they will be provided with random calls to investigate
+   - Upon reaching them the player will receive a bonus and the job will cancel / reset
+   - Updated the LSPDJobHouseInspection parameters to impact the decisions that the faction makes
+  
+  - Added a new job for the LSFD officers where they will be provided with random fire callouts during the day
+   - Added in a new flame object and smoke object to the property that is impacted by the fire system
+   - Added in a requirement that the person has to be in a firetruck or using a fire ext tool
+   - The player will have to click the left mouse button 10 times to put a fire out
+
+  - Added in a new colour for the dispatch calls
+
+  - Added a new map for the LSFD faction with moveable gates and doors
+  - Added two new points for the LSFD, /duty and /fireex commands
+    - /fireex command gives the on duty fireman an unlimited amount of fire ex ammo
+
+
+Removed Features:
+
+  - Removed the old ALERTRED colour for the dispatch calls
+  - Removed the old admin commands dialog and replaced with string text on screen for their commands
+
+Fixed Bugs / Updated Features:
+
+   - Fixed bug where the driver license was not being properly read when a player entered a model vehicle   
+   - Fixed a bug where the /hnext command wasn't working, this was because we reached our limit in the DB
+   - Fixed a bug where the Fuel_Timer parameter wasn't reset, so it kept being called after being killed
+   - Fixed a bug where the LSPD New Job locations weren't displaying on the house locations properly
+   - Fixed a critical bug where the fueltimer wasn't stopping and continued on even faster
+   - Fixed a bug where the fuel value wasn't being set back to - value if no fuel found
+   - Fixed a bug where the parameters of the fire system was being reset when a player arrived on scene
+   - Fixed a massive bug with the vehicles, where the /dl ids were not matching up with the database ids

@@ -1,0 +1,50 @@
+Version: 0.1.9a
+
+Added Features:
+
+  - Added in a new Persian Square Map
+  - Added in a new City Hall Interior Map
+
+  - Added in a new Ticket framework (v2)
+    - Added in the ability for players to use command /tickets
+    - Added in the ability for players to use command /payticket at LSPD pay spot
+    - Added in the ability for LSPD to now ticket players more effectively
+    - Added in the ability for LSPD to use command /ticket
+
+  - Added in a new Bolo framework (v1)
+    - Added in the ability for LSPD to now place bolos for faction notifications
+    - Added in the ability for LSPD to now delete bolos within the MDC
+    - Added in the ability for LSPD to use command /bolo to create a new bolo
+
+  - Added in a new View Crime framework (v1)
+    - Added in the ability for LSPD to now view previous crimes that players have committed
+
+  - Added in a new Modification Detection framework (v2)
+    - Added in the ability to detect when someone is using health modifications
+    - Added in the ability to detect when someone is using armour modifications
+
+  - Added in a new Faction Approval framework (v1)
+    - Added in the ability to approve or reject a characters offline application using command /offlinerequests
+
+  - Added in a new Home Ownership framework (v2)
+    - Added in the ability for VIP members to now purchase more than one home
+    - Added in the ability for NON VIP members to only be able to purchase one home
+
+
+Removed Features:
+
+  - Removed the old Ticket framework
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a bug with the LSPD bolo system not letting the record delete
+  - Fixed a bug with the arrest system not releasing the person from jail
+  - Fixed a bug with the BOLO system, displaying the bank dialog instead of LSPD dialog
+  - Fixed a bug with the /installlock and /installalarm system against the properties
+
+  - Updated the ability for LSPD to now arrest players more effectively
+  - Updated the /arrest and /ticket command to update the characters last crime records against the player
+  - Updated the /usedrugs system to not exceed the 100.0% limit on character health and armour for drug usage
+  - Updated the player dimension character_house_id to reflect a new structure for multiple property ownership
+
+

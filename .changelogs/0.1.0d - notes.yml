@@ -1,0 +1,36 @@
+Version: 0.1.0d
+
+Added Features:
+
+  - Added a new BOMBPLANT animation when fixing vehicles for the mechanic job for more realisim
+  - Added a new command for admins to preset the dynamic house interiors and spawn points automatically instead of manually setting them (/hpreset)
+
+  - Added a new vehicle rental system, where you can rent vehicles from the local airport for $250
+    - new /rentcar command
+    - new /unrent command
+    - Added a check to see if the person using the rental vehicle has rented one before, if not boot them out
+    - Added a new check to load rental vehicles seperatly from every other vehicle
+
+  - Added /avrefill command so that admins can server refill vehicle fuel to 100%
+  - Added /avrespawn command so that admins can server respawn all vehicles if required
+
+  - Added a new hotwire system to allow anyone in the server to steal faction vehicles including LSPD police cars
+    - new /hotwire command that requires a lockpick to use
+
+
+Removed Features:
+
+  - Removed the old /help pickup gamemode text and 3D text label
+
+Fixed Bugs / Updated Features:
+
+  - Fixed a major bug with the mechanic job that wouldn't detect when a player was near the vehicle
+  - Fixed a minor bug with the house system on the door pickup ID being to high in position
+  - Fixed the hotel interior exit pickup location
+
+  - Updated the Repair_Timer to consist of a status update for the player on how long until the job is complete
+  - Updated the /acceptjob to account for multple uses between different factions
+  - Updated all existing houses to have preset values applied to their new preset types
+  - Updated the house system pickup ID on purchased properties to reflect the blue house icon
+  - Updated the /guide system to be more up to date with information from today and not a year ago
+  - Updated the stream_rate config parameter
