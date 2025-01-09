@@ -7,3 +7,18 @@ I had a server open that I had already up hosted for the next five years or unti
 This script is pretty simple to get started. The first step is to look at what includes the script requires and ensure you have those in the qawno, pawno or vs code directories. The database file will not be provided at the initial release of this repository but I might insert it later on when I have time. This script uses all the latest plugins and includes that you can find by navigating the open mp forums or requesting directly.
 
 Ensure that you insert your own database parameters so that you do not error out like others before you. We are currently using the BlueG R41-4 mySQL version.
+
+# Future Development
+There will be no future development of this script. This is now publically released, bugs and all.
+
+# Future Support
+I will always support people that need it and you can reach me on discord, I'm not hard to find.
+
+# Credits
+We'll there aren't many credits for this roleplay script apart from yours truely, but lets give credit where its due.
+
+1. Open Roleplay Community - Thank you for your support and amazing bug finding during the intial phases
+2. iAmir - Thank you for assisting with one of the biggest bugs we had supporting a critical loop issue
+3. y_less - Thank you for assisting with the ini parse bug that was found and reported which you fixed in a recent release
+4. cessil - Just because he wants some credit too
+5. cessil - gave a really awesome opinion of me ;)
