@@ -1,3 +1,5 @@
+[Note: bcrypt was removed on the 09/01/2025 from all release versions for password / pin assistance to developers. You can now put in your own security process]
+
 # Open Roleplay - Statement
 Welcome to the official release of a custom Open.MP client built roleplay script for the GTA SA multiplayer mod. This roleplay script has been in the works on and off for the last 6 months. Started back in 2022 when Open MP was going through their first initial discussions on what would be offered for the community was this script started as an idea to bring back the sound and feel of those servers from 2008 - 2012. I feel that we lost touch with those communities by implementing things that you wouldn't find in the 90s like smart phones etc using textdraws. I would rather pick up a brick phone in this game.
 
